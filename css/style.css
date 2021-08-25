@@ -1,0 +1,284 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    background-color:black;
+}
+.container{
+    background-color:black;
+}
+
+.navbar{
+    background-color:black;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-item a:hover{
+    color: red !important;
+}
+
+
+.nav-item a{
+    font-size: 18px;
+}
+
+.navbar-nav{
+    display: flex;
+    
+}
+.about__me p{
+    color: red;    
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.button a{
+    color:white;
+    text-decoration: none;
+}
+
+.its__me{
+    background-color:black;
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+}
+.its__me h1{
+    font-size: 100px;
+    color: red;
+    font-weight: 600;
+}
+
+.its__me p{
+    font-size: 30px;
+    color: red;
+    font-weight: 500 ;
+}
+
+.about__me{
+    padding-bottom: 70px;
+}
+
+.avatar{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* .btn-w{
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+}
+.btn-w:hover{
+    background-color: greenyellow;
+    
+}
+.btn-t{
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    border-radius: 5px;
+    
+    color: white;
+}
+.btn-t:hover{
+    background-color: #00BFFF;
+    
+}
+
+.btn-g{
+    background-color: #808080;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    
+    color: white;
+}
+.btn-g:hover{
+    background-color: #A9A9A9;
+    
+} */
+.btn a{
+    color: red;
+}
+.button a:hover{
+    color: black;
+}
+
+.button{
+    width: 20%;
+}
+
+.carousel{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 20%;
+}
+
+.carousel__title{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    font-weight: 500;
+}
+
+.card{
+    border: none;
+    background-color:black;
+}
+
+.card-body__title{
+    color: red ;
+    font-size: 24px;
+}
+
+.range-slider p{
+    color: red;
+    margin-bottom: 0;
+}
+
+.progress{
+    margin-bottom: 14px;
+}
+
+
+.footer-section {
+    
+    position: relative;
+}
+  .footer-cta {
+    border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+    color: #ff5e14;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+  }
+  .cta-text {
+    padding-left: 15px;
+    display: inline-block;
+  }
+
+  .cta-text a:hover{
+    color: #ff5e14 !important;
+  }
+
+  .cta-text h4 {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .cta-text span {
+    color: #757575;
+    font-size: 15px;
+  }
+  .footer-content {
+    position: relative;
+    z-index: 2;
+  }
+  .footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+  }
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-logo img {
+   max-width: 200px;
+  }
+  .footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+  }
+  .img-fluid{
+      border-radius: 100%;
+  }
+  
+  .footer-widget-heading h3 {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: #ff5e14;
+  }
+  .footer-widget ul li {
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+  }
+  .footer-widget ul li a:hover{
+    color: #ff5e14;
+  }
+  .footer-widget ul li a {
+    color: #878787;
+    text-transform: capitalize;
+  }
+  .subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: red;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+  }
+  .subscribe-form button i {
+    color: red;
+    font-size: 22px;
+    transform: rotate(-6deg);
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  @media all and (max-width: 768px){
+      .my-photo{
+          margin-top: 140px;
+      }
+  }
+
+  @media all and (max-width: 576px){
+    h1{
+      font-size: 50px !important;
+      margin-top: 70px;
+    }
+
+  }
+
+  @media all and (max-width: 433px){
+    .about__me button{
+        width: auto;     
+    }
+  }
