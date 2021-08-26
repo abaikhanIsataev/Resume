@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+p{
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.list_text{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
